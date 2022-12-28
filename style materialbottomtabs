@@ -1,0 +1,18 @@
+
+            labeled={false}
+            barStyle={styles.bottomTabStyle}
+
+const styles = StyleSheet.create({
+    bottomTabStyle: {
+        backgroundColor: "#2a2a2a",
+        height: "8%",
+        borderTopLeftRadius: 30,
+        borderTopRightRadius: 30,
+        overflow: "hidden",
+        position: "absolute"
+    },
+    icons: {
+        width: RFValue(30),
+        height: RFValue(30)
+    }
+});
